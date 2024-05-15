@@ -1,0 +1,192 @@
+@import url("https://fonts.cdnfonts.com/css/copperplate");
+@import url("https://fonts.cdnfonts.com/css/copperplate-gothic-std");
+@import url("https://db.onlinewebfonts.com/c/a9ca19a608d18285fbd70cb40818bb79?family=Copperplate+W02+Bold");
+body,
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-image: url("../Assets/Background.png");
+  height: 100vh;
+  max-height: 100vh;
+  width: 100vw;
+  background-color: #ccbab7;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.Main-div {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  margin-top: -20vh;
+  flex-direction: column;
+}
+
+.Logo {
+  height: 2in;
+  width: 2in;
+}
+
+.Logo-div {
+  display: flex;
+  justify-content: center;
+}
+
+.Middle-stuff {
+  font-family: "Copperplate";
+  color: #ccbab7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Main-text {
+  font-size: 100px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.Under-text {
+  font-size: 20px;
+  margin-top: -10px;
+}
+
+.Button {
+  background-color: #ccbab7;
+  font-family: "Copperplate";
+  color: black;
+  font-size: 25px;
+  border: 1px solid black;
+  border-radius: 12px;
+  padding: 15px 17px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Todo: Make logo smaller */
+
+@media screen and (max-width: 350px) {
+  .Main-text {
+    font-size: 35px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .Under-text {
+    font-size: 9px;
+    margin-top: -2px;
+  }
+
+  .Button {
+    background-color: #ccbab7;
+    font-family: "Copperplate";
+    color: black;
+    font-size: 12px;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 8px 12px;
+  }
+}
+
+@media screen and (max-width: 400px) and (min-width: 351px) {
+  .Main-text {
+    font-size: 40px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .Under-text {
+    font-size: 10px;
+    margin-top: -2px;
+  }
+
+  .Button {
+    background-color: #ccbab7;
+    font-family: "Copperplate";
+    color: black;
+    font-size: 12px;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 8px 12px;
+  }
+}
+
+@media screen and (max-width: 600px) and (min-width: 401px) {
+  .Main-text {
+    font-size: 45px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .Under-text {
+    font-size: 11px;
+    margin-top: -2px;
+  }
+
+  .Button {
+    background-color: #ccbab7;
+    font-family: "Copperplate";
+    color: black;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 10px 15px;
+  }
+}
+
+/* Make the site responsive for screens between 600 and 1000 px */
+@media screen and (max-width: 1125px) and (min-width: 801px) {
+  .Main-text {
+    font-size: 70px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .Under-text {
+    font-size: 12px;
+    margin-top: -2px;
+  }
+
+  .Button {
+    background-color: #ccbab7;
+    font-family: "Copperplate";
+    color: black;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 10px 15px;
+  }
+}
+
+@media screen and (max-width: 800px) and (min-width: 601px) {
+  .Main-text {
+    font-size: 70px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .Under-text {
+    font-size: 15px;
+    margin-top: -2px;
+  }
+
+  .Button {
+    background-color: #ccbab7;
+    font-family: "Copperplate";
+    color: black;
+    font-size: 17px;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 10px 15px;
+  }
+}
