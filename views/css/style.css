@@ -4,8 +4,21 @@
   font-weight: normal;
   font-style: normal;
 }
-@import url("https://db.onlinewebfonts.com/c/a9ca19a608d18285fbd70cb40818bb79?family=Copperplate+W02+Bold");
-
+@font-face {
+  font-family: "Copperplate W02 Bold";
+  src: url("https://db.onlinewebfonts.com/t/a9ca19a608d18285fbd70cb40818bb79.eot");
+  src:
+    url("https://db.onlinewebfonts.com/t/a9ca19a608d18285fbd70cb40818bb79.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/a9ca19a608d18285fbd70cb40818bb79.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/a9ca19a608d18285fbd70cb40818bb79.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/a9ca19a608d18285fbd70cb40818bb79.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/a9ca19a608d18285fbd70cb40818bb79.svg#Copperplate W02 Bold")
+      format("svg");
+}
 body,
 html {
   height: 100%;
@@ -44,7 +57,7 @@ body {
 }
 
 .Middle-stuff {
-  font-family: "Copperplate";
+  font-family: "Copperplate W02 Bold";
   color: #ccbab7;
   display: flex;
   flex-direction: column;
@@ -53,22 +66,22 @@ body {
 }
 
 .Main-text {
-  font-size: 100px;
+  font-size: 95px;
   padding: 0px;
   margin: 0px;
 }
 
 .Under-text {
-  font-size: 20px;
+  font-size: 18px;
   margin-top: -10px;
-  font-family: "Copperplate";
+  font-family: "Copperplate W02 Bold";
 }
 
 .Button {
   background-color: #ccbab7;
-  font-family: "Copperplate";
+  font-family: "Copperplate W02 Bold";
   color: black;
-  font-size: 25px;
+  font-size: 22px;
   border: 1px solid black;
   border-radius: 12px;
   padding: 15px 17px;
@@ -83,6 +96,29 @@ a {
 
 @media screen and (max-width: 350px) {
   .Main-text {
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .Under-text {
+    font-size: 7px;
+    margin-top: -2px;
+  }
+
+  .Button {
+    background-color: #ccbab7;
+    font-family: "Copperplate W02 Bold";
+    color: black;
+    font-size: 10px;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 8px 12px;
+  }
+}
+
+@media screen and (max-width: 400px) and (min-width: 351px) {
+  .Main-text {
     font-size: 35px;
     padding: 0px;
     margin: 0px;
@@ -95,16 +131,16 @@ a {
 
   .Button {
     background-color: #ccbab7;
-    font-family: "Copperplate";
+    font-family: "Copperplate W02 Bold";
     color: black;
-    font-size: 12px;
+    font-size: 11px;
     border: 1px solid black;
-    border-radius: 12px;
+    border-radius: 9px;
     padding: 8px 12px;
   }
 }
 
-@media screen and (max-width: 400px) and (min-width: 351px) {
+@media screen and (max-width: 600px) and (min-width: 401px) {
   .Main-text {
     font-size: 40px;
     padding: 0px;
@@ -118,30 +154,7 @@ a {
 
   .Button {
     background-color: #ccbab7;
-    font-family: "Copperplate";
-    color: black;
-    font-size: 12px;
-    border: 1px solid black;
-    border-radius: 12px;
-    padding: 8px 12px;
-  }
-}
-
-@media screen and (max-width: 600px) and (min-width: 401px) {
-  .Main-text {
-    font-size: 45px;
-    padding: 0px;
-    margin: 0px;
-  }
-
-  .Under-text {
-    font-size: 11px;
-    margin-top: -2px;
-  }
-
-  .Button {
-    background-color: #ccbab7;
-    font-family: "Copperplate";
+    font-family: "Copperplate W02 Bold";
     color: black;
     font-size: 15px;
     border: 1px solid black;
@@ -165,7 +178,7 @@ a {
 
   .Button {
     background-color: #ccbab7;
-    font-family: "Copperplate";
+    font-family: "Copperplate W02 Bold";
     color: black;
     font-size: 20px;
     border: 1px solid black;
