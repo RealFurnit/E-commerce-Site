@@ -1,6 +1,10 @@
-@import url("https://fonts.cdnfonts.com/css/copperplate");
-@import url("https://fonts.cdnfonts.com/css/copperplate-gothic-std");
-@import url("https://db.onlinewebfonts.com/c/a9ca19a608d18285fbd70cb40818bb79?family=Copperplate+W02+Bold");
+@font-face {
+  font-family: "Copperplate";
+  src: url("https://fonts.cdnfonts.com/css/copperplate");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body,
 html {
   height: 100%;
@@ -56,6 +60,7 @@ body {
 .Under-text {
   font-size: 20px;
   margin-top: -10px;
+  font-family: "Copperplate";
 }
 
 .Button {
